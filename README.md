@@ -2,6 +2,8 @@
 
 This is a decentralized application (dApp) built with React and ethers.js. It connects to the Sepolia Ethereum testnet, interacts with MetaMask, and provides functions to read from and write values to a smart contract deployed on the Sepolia testnet.
 
+![Architecture](./src/Architecture.png)
+
 ## Functionality
 
 - Connect to the Sepolia testnet using MetaMask.
@@ -33,3 +35,8 @@ In this example the smart contract being use has a Read and Write method, the so
     echo 'REACT_APP_CONTRACT_ADDRESS = ***' > .env
     ```
     replacing the '***' with the address of the smart contract
+
+5. and finally run the app:
+    ```bash
+    npm start
+    ```
