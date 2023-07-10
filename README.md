@@ -30,7 +30,7 @@ In this example the smart contract being use has a Read and Write method, the so
     ```bash
     npm install
     ```
-4. create an .env file:
+4. create an .env file with the contracts address as a variable:
     ```bash
     echo 'REACT_APP_CONTRACT_ADDRESS = ***' > .env
     ```
