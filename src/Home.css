@@ -1,0 +1,16 @@
+.homeDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50vw;
+  border-radius: 15px;
+  background-color: grey;
+  padding: 2%;
+  
+  animation: appear 0.2s;
+}
+
+.homeText{
+  
+}
