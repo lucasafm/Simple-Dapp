@@ -19,7 +19,7 @@ const ContractImpl = (props) => {
         if (defaultAccount !== "No Acount Connected."){
             console.log(contract)
         } else if (window.ethereum) {
-            let walletProvider = window.ethereum.providers[0]
+            let walletProvider = window.ethereum//.providers[0]
             walletProvider.request({method: 'eth_requestAccounts'})
 			.then(result => {
                 setProvider(walletProvider)
